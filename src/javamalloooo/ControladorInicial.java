@@ -21,12 +21,12 @@ public class ControladorInicial {
     @RequestMapping("/")
     @CrossOrigin
     @ResponseBody String hola() throws Exception{
-        DAOCliente d=new DAOCliente();
-        Cliente c=new Cliente();
-        c.setEmail("rapidclimate@outlook.com");
-        c.setNombre("Juan Carlitos");
-        c.setPaterno("Campitos");
-        d.guardar(c);
+        //DAOCliente d=new DAOCliente();
+        //Cliente c=new Cliente();
+        //c.setEmail("rapidclimate@outlook.com");
+        ///c.setNombre("Juan Carlitos");
+        //c.setPaterno("Campitos");
+        //d.guardar(c);
         return "Hola desde el spring boot sin maven";
     }
     

@@ -9,16 +9,18 @@ import org.springframework.boot.context.embedded.ConfigurableEmbeddedServletCont
 import org.springframework.boot.context.embedded.EmbeddedServletContainerCustomizer;
 import org.springframework.stereotype.Component;
 
+
 /**
  *
  * @author Campitos Ley <campitos-ley.com>
  */
+
 @Component
 public class ConfigurarTomcat implements EmbeddedServletContainerCustomizer{
 
     @Override
     public void customize(ConfigurableEmbeddedServletContainer cesc) {
-       cesc.setPort(9000);
+       cesc.setPort(9008);
     }
     
 }

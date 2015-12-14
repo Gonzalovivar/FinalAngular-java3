@@ -26,6 +26,7 @@ public class Javamalloooo {
     public static void main(String[] args) {
         // TODO code application logic here
         SpringApplication.run(Javamalloooo.class, args);
+        
     }
     
 }
